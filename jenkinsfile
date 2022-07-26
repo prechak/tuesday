@@ -1,0 +1,21 @@
+piepline{
+  agent any
+  stages{
+    stages('Starting ... '){
+      steps {
+        echo 'Starting'
+      }
+    }
+    stage('Compliling'){
+      step {
+        sh 'javac Start.java'
+      }
+    }
+    stage('Testing'){
+      step {
+        sh 'javac Start
+        }
+    }
+  }
+
+}
